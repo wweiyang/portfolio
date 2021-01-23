@@ -254,12 +254,16 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
-    max-width: 250px;
-    margin: 0 auto;
 }
 
 .section__subtitle--intro {
     display: inline-block;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .intro__img {
+        display: none;
+    }
 }
 
 @media (min-width: 600px) {
@@ -349,8 +353,12 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
-    max-width: 250px;
-    margin: 0 auto;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .about-me__img {
+        display: none;
+    }
 }
 
 @media (min-width: 600px) {
