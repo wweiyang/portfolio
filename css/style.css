@@ -254,16 +254,11 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    display: none;
 }
 
 .section__subtitle--intro {
     display: inline-block;
-}
-
-@media (min-width: 0px) and (max-width: 600px) {
-    .intro__img {
-        display: none;
-    }
 }
 
 @media (min-width: 600px) {
@@ -283,6 +278,7 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
+        display: block;
     }
 
     .section__subtitle--intro {
@@ -353,12 +349,7 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
-}
-
-@media (min-width: 0px) and (max-width: 600px) {
-    .about-me__img {
-        display: none;
-    }
+    display: none;
 }
 
 @media (min-width: 600px) {
@@ -390,6 +381,7 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
+        display: block;
     }
 }
 
