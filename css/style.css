@@ -254,6 +254,8 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    max-width: 250px;
+    margin: 0 auto;
 }
 
 .section__subtitle--intro {
