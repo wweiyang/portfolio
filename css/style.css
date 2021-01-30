@@ -476,12 +476,14 @@ header {
     margin: 0 auto;
 }
 
-.portfolio-item-individual p {
+/* .portfolio-item-individual p {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .article__img {
+    /* max-width: 800px;
+    margin: 0 auto; */
     border: #707070 1px solid;
 }
