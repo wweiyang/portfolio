@@ -481,3 +481,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.article__img {
+    border: #707070 1px solid;
+}
