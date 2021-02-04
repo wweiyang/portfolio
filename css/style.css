@@ -293,9 +293,9 @@ header {
 }
 
 
-/* My services section */
+/* My interests section */
 
-.my-services {
+.my-interests {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
@@ -304,12 +304,12 @@ header {
     text-align: center;
 }
 
-.section__title--services {
+.section__title--interests {
     color: var(--clr-accent);
     position: relative;
 }
 
-.section__title--services::after {
+.section__title--interests::after {
     content: '';
     display: block;
     width: 2em;
@@ -319,24 +319,24 @@ header {
     opacity: 0.25;
 }
 
-.services {
+.interests {
     margin-bottom: 4em;
 }
 
-.service {
+.interest {
     max-width: 500px;
     margin: 0 auto;
 }
 
 @media (min-width: 800px) {
-    .services {
+    .interests {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .service + .service {
+    .interest + .interest {
         margin-left: 2em;
     }
 }
@@ -483,7 +483,5 @@ header {
 } */
 
 .article__img {
-    /* max-width: 800px;
-    margin: 0 auto; */
     border: #707070 1px solid;
 }
