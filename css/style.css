@@ -275,7 +275,7 @@ header {
 
     .intro__img {
         grid-area: img;
-        min-width: 250px;
+        min-width: 200px;
         position: relative;
         z-index: 2;
         display: block;
@@ -289,6 +289,12 @@ header {
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
+    }
+}
+
+@media (min-width: 800px) {
+    .intro__img {
+        min-width: 250px;
     }
 }
 
