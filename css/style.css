@@ -17,6 +17,8 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
+    --clr-link: #10A289;
+    --clr-link-hover: #0B6E5D;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -64,8 +66,17 @@ img {
 strong { font-weight: var(--fw-bold) }
 
 :focus {
-    outline: 3px solid var(--clr-accent);
+    outline: 2px solid var(--clr-accent);
     outline-offset: 3px;
+}
+
+a {
+    color: var(--clr-link);
+}
+
+a:hover,
+a:focus {
+    color: var(--clr-link-hover);
 }
 
 /* Buttons */
@@ -86,6 +97,11 @@ strong { font-weight: var(--fw-bold) }
 
 .btn:hover {
     transform: scale(1.1);
+    color: var(--clr-dark);
+}
+
+.btn:focus {
+    color: var(--clr-dark);
 }
 
 
